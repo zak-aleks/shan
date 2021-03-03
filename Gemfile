@@ -24,7 +24,7 @@ gem 'jbuilder', '~> 2.7'
 gem 'bootstrap-sass'
 gem 'faker'
 gem 'jquery-rails'
-
+gem 'rspec-json_expectations'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
@@ -37,6 +37,7 @@ group :development, :test do
   gem 'database_cleaner'
   gem 'factory_bot'
   gem 'rspec-rails'
+  gem 'rails-controller-testing'
 end
 
 group :development do
